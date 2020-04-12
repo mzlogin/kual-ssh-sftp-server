@@ -8,7 +8,7 @@
 
 本插件安装方法：
 
-1. 下载本项目代码；
+1. 下载本项目代码，可以用 git clone，也可以到 [releases](https://github.com/mzlogin/kual-ssh-sftp-server/releases) 下载；
 
 2. 将 Kindle 用数据线连接电脑，把上面下载的代码里的 ssh-sftp-server 文件夹拷贝到 Kindle 的 /mnt/us/extensions 目录下。
 
@@ -16,15 +16,15 @@
 
 打开 KUAL，就可以在插件列表里看到「SSH & SFTP Server」菜单项了：
 
-![](./screenshots/in-kual.png)
+<img width="320px" src="./screenshots/in-kual.png"/>
 
 点击后可进入插件功能列表：
 
-![](./screenshots/in-plugin.png)
+<img width="320px" src="./screenshots/in-plugin.png"/>
 
 点击「Start Server」可以启动 SSH & SFTP Server：
 
-![](./screenshots/started.png)
+<img width="320px" src="./screenshots/started.png"/>
 
 启动成功后，就可以使用称手的 SSH / SFTP 工具无线连接 Kindle 进行管理了。
 
@@ -32,11 +32,13 @@
 
 点击「Stop Server」可以停止 SSH & SFTP Server：
 
-![](./screenshots/stopped.png)
+<img width="320px" src="./screenshots/stopped.png"/>
 
 点击「Show Status」可以查看当前状态，是启动还是停止。
 
 ## 适用机型
+
+当前只在 Kindle PaperWhite 一代上运行过，其它机型未验证。
 
 - Kindle PaperWhite
 
