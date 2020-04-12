@@ -1,0 +1,37 @@
+{
+    "items": [
+        {
+            "name": "SSH & SFTP Server",
+            "priority": 0,
+            "items": [
+                {
+                    "name": "Start Server",
+                    "priority": 1,
+                    "action": "./bin/start.sh",
+                    "exitmenu": true,
+                    "checked": false,
+                    "status": false,
+                    "internal": "status SSH & SFTP Server was started!"
+                },
+                {
+                    "name": "Stop Server",
+                    "priority": 2,
+                    "action": "./bin/stop.sh",
+                    "exitmenu": false,
+                    "checked": false,
+                    "status": false,
+                    "internal": "status SSH & SFTP Server was stopped!"
+                },
+                {
+                    "name": "Show Status",
+                    "priority": 2,
+                    "action": "./bin/status.sh",
+                    "exitmenu": false,
+                    "checked": false,
+                    "status": false,
+                    "internal": "status Show SSH & SFTP Server Status!"
+                }
+            ]
+        }
+    ]
+}
