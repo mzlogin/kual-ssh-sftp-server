@@ -2,7 +2,7 @@
 <extension>
     <information>
         <name>SSH &amp; SFTP Server</name>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
         <author>mzlogin</author>
         <id>mzlogin-ssh-sftp-server</id>
     </information>

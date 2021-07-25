@@ -8,7 +8,7 @@
                     "name": "Start Server",
                     "priority": 1,
                     "action": "./bin/start.sh",
-                    "exitmenu": true,
+                    "exitmenu": false,
                     "checked": false,
                     "status": false,
                     "internal": "status SSH & SFTP Server was started!"
